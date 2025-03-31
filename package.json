@@ -1,0 +1,73 @@
+{
+  "name": "dao-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.1",
+    "@mui/system": "^7.0.1",
+    "@mui/types": "^7.4.0",
+    "@openzeppelin/merkle-tree": "^1.0.8",
+    "@types/material-ui": "^0.21.18",
+    "@types/node": "^16.18.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/recharts": "^1.8.29",
+    "@walletconnect/modal": "^2.7.0",
+    "@walletconnect/sign-client": "^2.19.2",
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/react": "^2.7.1",
+    "@web3modal/wagmi": "^5.1.11",
+    "ajv": "^8.12.0",
+    "ajv-keywords": "^5.1.0",
+    "buffer": "^6.0.3",
+    "ethers": "^6.0.0",
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "ipfs-http-client": "^60.0.1",
+    "nostr-tools": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.55.0",
+    "react-i18next": "^15.4.1",
+    "react-router-dom": "^7.4.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.15.1",
+    "siwe": "^2.3.2",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^4.9.0",
+    "viem": "^2.24.2",
+    "wagmi": "^2.14.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.13",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "hardhat": "^2.22.19"
+  }
+}
